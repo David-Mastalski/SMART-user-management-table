@@ -1,0 +1,28 @@
+.topBar {
+  background-color: $dirty-white;
+
+  .container {
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 11rem;
+  }
+
+  .myData {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: $text-grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    img {
+      width: 3.3rem;
+      border-radius: 50%;
+    }
+  }
+}

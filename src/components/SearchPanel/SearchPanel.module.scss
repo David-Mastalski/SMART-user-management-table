@@ -1,0 +1,44 @@
+.container {
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 3.5rem 0;
+  }
+
+  .panel {
+    background-color: $dirty-white;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+
+  span {
+    color: $text-grey;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  input,
+  input::placeholder {
+    color: $text-light-grey;
+    font-weight: 600;
+  }
+
+  input {
+    background-color: $background-green;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+  }
+}
